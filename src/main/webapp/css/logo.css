@@ -30,7 +30,7 @@ body {
 .header-text h1 {
 	font-size: 20px;
 	margin: 0;
-	text-align: left;
+	text-align: centre;
 }
 
 .header-text h6 {
@@ -78,6 +78,7 @@ body {
 .main-content h1 {
 	color: #1d3557;
 	margin-bottom: 20px;
+	text-align: centre;
 }
 
 /* Content box styling */
@@ -166,3 +167,4 @@ body {
 .version-update button:hover {
 	background-color: #457b9d;
 }
+

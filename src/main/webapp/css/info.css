@@ -133,10 +133,18 @@ body {
     padding: 10px 15px;
     font-size: 14px;
     border-bottom: 1px solid #ddd;
+    text-align: left;
 }
 
 .criteria-box tr:last-child td {
     border-bottom: none;
+}
+
+.version-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 20px; /* Adds space between the buttons */
 }
 
 .version-update button {

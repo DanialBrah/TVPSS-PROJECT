@@ -26,9 +26,9 @@
             <li><a href="activity.jsp">Activity</a></li>
             <li><a href="info.jsp" class="active-link">Info</a></li>
             <li><a href="logo.jsp">Logo</a></li>
-            <li><a href="#">GPM</a></li>
+            <li><a href="gpm.jsp">GPM</a></li>
             <li><a href="video.jsp">Content</a></li>
-            <li><a href="#">Logout</a></li>
+            <li><a href="login.jsp">Logout</a></li>
         </ul>
     </div>
 
@@ -42,11 +42,11 @@
             <img src="images/salam.jpg" alt="Activity Image" class="activity-image">
             <table class="criteria-box">
                 <tr>
-                    <th>Activity Name</th>
+                    <th>Nama Aktiviti</th>
                     <td>Majlis Perpisahan Encik Norazlan</td>
                 </tr>
                 <tr>
-                    <th>Date</th>
+                    <th>Tarikh</th>
                     <td>20 April 2024</td>
                 </tr>
                 <tr>
@@ -57,6 +57,7 @@
         </div>
         <div class="version-update">
             <button>Edit</button>
+            <button>Delete</button>
         </div>
     </div>
     

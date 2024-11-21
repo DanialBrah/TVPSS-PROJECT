@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Program Details Validation</title>
-<link rel="stylesheet" type="text/css" href="css/userDashboard.css">
+<link rel="stylesheet" type="text/css" href="css/validate.css">
 </head>
 <body>
 	<div class="sidebar">
@@ -23,12 +23,10 @@
 			<li>Contact</li>
 			<li>Validation</li>
 			<li>Content Library</li>
-			<li>Timeline</li>
 			<li>Notifications</li>
+			<li>Status</li>
 			<li>Log Out</li>
 		</ul>
-		<!-- <a href="#" style="color: white; text-decoration: none;">Logout</a> -->
-
 	</div>
 	<div class="content">
 		<h2>Program Details Validation </h2>
