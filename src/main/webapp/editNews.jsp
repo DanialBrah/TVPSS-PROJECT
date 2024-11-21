@@ -60,7 +60,7 @@
 <body>
     <div class="sidebar">
         <div class="header-container">
-            <img src="/api/placeholder/100/70" alt="Logo" class="sidebar-logo">
+            <img src="images/jata.png" alt="Logo" class="sidebar-logo">
             <div class="header-text">
                 <h1>TV PSS</h1>
                 <h6>Management Information System</h6>
@@ -80,7 +80,7 @@
         <div class="edit-news-card">
             <h2>Edit News</h2>
             <form class="edit-news-form" action="updateNewsServlet" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="newsId" value="${news.id}"> <%-- Hidden field for news ID --%>
+                <input type="hidden" name="newsId" value="${news.id}">
 
                 <label for="title">Title:</label>
                 <input type="text" id="title" name="title" value="${news.title}" required><br><br>
@@ -89,8 +89,8 @@
                 <input type="date" id="date" name="date" value="${news.date}" required><br><br>
 
                 <label for="image">Image:</label>
-                <input type="file" id="image" name="image" accept="image/*"><br><br> <%-- Image upload --%>
-                <img src="${news.image}" alt="Current News Image"><br><br> <%-- Display current image --%>
+                <input type="file" id="image" name="image" accept="image/*"><br><br> 
+                <img src="images/news1.jpg" alt="Current News Image"><br><br> 
 
                 <label for="content">Content:</label>
                 <textarea id="content" name="content" required>${news.content}</textarea><br><br>

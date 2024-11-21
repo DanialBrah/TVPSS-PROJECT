@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Program Details Summary</title>
   <link rel="stylesheet" type="text/css" href="css/userDashboard.css">
+  <style>
+    .stats-container {
+      display: flex;
+      justify-content: space-around; /* Distribute space evenly around items */
+      margin-bottom: 20px; /* Add some bottom margin for spacing */
+    }
+  </style>
 </head>
 <body>
   <div class="sidebar">
     <div class="header-container">
-      <img src="/api/placeholder/100/70" alt="Logo" class="sidebar-logo">
+      <img src="images/jata.png" alt="Logo" class="sidebar-logo">
       <div class="header-text">
         <h1>TV PSS</h1>
         <h6>Management Information System</h6>
@@ -43,25 +50,50 @@
       </div>
     </div>
 
+    <h3>News Overview</h3>
+        <div class="news-overview">
+            <div class="news-card">
+                <img src="images/news1.jpg" alt="News 1"> 
+                <h4>New Educational Resources Available</h4>
+                <p>...</p>
+                <small>December 12, 2024</small>
+            </div>
+
+            <div class="news-card">
+                <img src="images/news2.jpg" alt="News 2"> 
+                <h4>Upcoming Teacher Training Workshop</h4>
+                <p>...</p>
+                <small>December 5, 2024</small>
+            </div>
+
+            <div class="news-card">
+                <img src="images/news3.jpg" alt="News 3">
+                <h4>School Performance Report Released</h4>
+                <p>...</p>
+                <small>November 28, 2024</small>
+            </div>
+        </div>
+
+
     <h3>Recent Activities</h3>
     <div class="activity-slider">
       <div class="activity-card">
-        <img src="/api/placeholder/200/120" alt="Activity 1">
+        <img src="images/2.jpeg" alt="Activity 1">
         <p>Workshop on Digital Learning</p>
         <small>November 15, 2024</small>
       </div>
       <div class="activity-card">
-        <img src="/api/placeholder/200/120" alt="Activity 2">
+        <img src="images/3.jpg" alt="Activity 2">
         <p>Teacher Training Program</p>
         <small>October 22, 2024</small>
       </div>
       <div class="activity-card">
-        <img src="/api/placeholder/200/120" alt="Activity 3">
+        <img src="images/4.jpg" alt="Activity 3">
         <p>Student Innovation Expo</p>
         <small>September 5, 2024</small>
       </div>
       <div class="activity-card">
-        <img src="/api/placeholder/200/120" alt="Activity 4">
+        <img src="images/5.jpg" alt="Activity 4">
         <p>Community Outreach Program</p>
         <small>August 18, 2024</small>
       </div>
