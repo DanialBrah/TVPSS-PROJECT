@@ -131,7 +131,7 @@
             </a>
 
             <!-- Card 3: Teachers -->
-            <a href="teachersList.jsp" class="dashboard-card">
+            <a href="teacherList.jsp" class="dashboard-card">
                 <h2>Teachers</h2>
                 <p>50</p> <!-- Replace '50' with dynamic data -->
             </a>
