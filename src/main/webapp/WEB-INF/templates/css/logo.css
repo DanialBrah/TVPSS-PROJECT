@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+/* Sidebar styling */
+.sidebar {
+	width: 220px;
+	background-color: #002a72;
+	color: white;
+	position: fixed;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.header-container {
+	display: flex;
+	align-items: flex-start; /* Aligns items to the top */
+	gap: 10px; /* Adds space between the image and text */
+}
+
+.sidebar-logo {
+	width: 100px; /* Adjust the width of the logo */
+	height: 70px; /* Adjust the height of the logo */
+	border-radius: 5px; /* Optional: rounds the corners of the image */
+}
+
+.header-text h1 {
+	font-size: 20px;
+	margin: 0;
+	text-align: centre;
+}
+
+.header-text h6 {
+	font-size: 10px;
+	margin: 0;
+	text-align: left;
+	line-height: 1.5;
+	color: #e0e0e0; /* Optional: lighter color for better contrast */
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 70px 0 0 0;
+	margin: 0;
+}
+
+.sidebar ul li {
+	margin: 15px 0;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px; /* Adds a slight rounding to the edges */
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	/* Smooth hover effect */
+}
+
+.sidebar ul li:hover {
+	background-color: #0056b3; /* Changes background color on hover */
+	transform: translateX(5px); /* Slightly moves the item to the right */
+}
+
+.sidebar ul li a {
+	text-decoration: none; /* Removes underline for links */
+	color: inherit;
+	/* Ensures links take the same color as the list item */
+	display: block;
+	width: 100%;
+}
+
+/* Main content area */
+.main-content {
+	margin-left: 270px;
+	padding: 20px;
+}
+
+.main-content h1 {
+	color: #1d3557;
+	margin-bottom: 20px;
+	text-align: centre;
+}
+
+/* Content box styling */
+.content-box {
+	background-color: #457b9d;
+	padding: 20px;
+	border-radius: 8px;
+	color: white;
+	max-width: 94%;
+	margin: 0 auto; /* Centers the content box */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+	text-align: center;
+}
+
+.content-box img {
+	width: 150px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.content-box .channel-name {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.content-box h3 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.content-box p {
+	font-size: 14px;
+	margin: 10px 0;
+	line-height: 1.5;
+}
+
+.content-box a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.content-box a:hover {
+	color: #d1d1d1;
+}
+
+.description, .channel-details {
+	text-align: left; /* Align text to the left */
+	margin-left: 10px; /* Optional: Add some padding from the left */
+	font-size: 14px; /* Optional: Maintain a consistent font size */
+	line-height: 1.6; /* Optional: Improve readability */
+}
+
+/* Update button styling */
+.version-update {
+	margin-top: 20px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 85%;
+	margin: 20px auto;
+}
+
+.version-update p {
+	font-size: 18px;
+}
+
+.version-update span {
+	font-weight: bold;
+}
+
+.version-update button {
+	background-color: #1d3557;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.version-update button:hover {
+	background-color: #457b9d;
+}
+

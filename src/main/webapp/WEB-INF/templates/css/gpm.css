@@ -1,0 +1,189 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 220px;
+    background-color: #002a72;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: left; /* Aligns logo and text */
+    gap: 10px; /* Space between the logo and text */
+}
+
+.sidebar-logo {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.header-text h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.header-text h6 {
+    font-size: 10px;
+    margin: 0;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 70px 0 0 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar ul li:hover {
+    background-color: #0056b3;
+    transform: translateX(5px);
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    margin-left: 270px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content h1 {
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Profile Container */
+.profile-container {
+    background-color: #457b9d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Profile Picture */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #457b9d; /* Accent border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Detail Section */
+.profile-detail {
+    margin-bottom: 20px;
+}
+
+.profile-detail label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff; /* Dark blue for headers */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-detail p {
+    font-size: 14px;
+    color: #555; /* Subtle gray text for details */
+    margin: 0;
+    padding: 8px 12px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Teaching Experience Textarea */
+.profile-detail textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.profile-detail textarea:focus {
+    border-color: #457b9d; /* Accent color for focus */
+    box-shadow: 0 0 5px rgba(69, 123, 157, 0.5);
+}
+
+/* Update Button */
+.update-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.update-button-container button {
+    background-color: #004A9F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-button-container button:hover {
+    background-color: #007BFF;
+}
+
+/* Additional Profile Details */
+textarea#teachingExperience {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: none;
+}

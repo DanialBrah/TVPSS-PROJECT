@@ -1,0 +1,135 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f6f8;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #002a72;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: left; /* Vertically aligns the image and text */
+    gap: 10px; /* Adds space between the image and text */
+}
+
+.sidebar-logo {
+    width: 100px; /* Adjust the width of the logo */
+    height: 70px; /* Adjust the height of the logo */
+    border-radius: 5px; /* Optional: rounds the corners of the image */
+}
+
+.header-text h1 {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.header-text h6 {
+    font-size: 10px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5;
+    color: #e0e0e0; /* Optional: lighter color for better contrast */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 70px 0 0 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Adds a slight rounding to the edges */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.sidebar ul li:hover {
+    background-color: #0056b3; /* Changes background color on hover */
+    transform: translateX(5px); /* Slightly moves the item to the right */
+    text-decoration: none; /* Ensures no underline on hover */
+}
+
+.sidebar ul li a {
+    text-decoration: none; /* Removes underline for links */
+    color: inherit; /* Ensures links take the same color as the list item */
+    display: block;
+    width: 100%;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0; /* Adds space for the rounded corners */
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Adds a border around the table */
+    border-radius: 20px; /* Rounds the corners of the table */
+    overflow: hidden; /* Ensures corners remain rounded */
+    background-color: #fff; /* White background for better contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+table th, table td {
+    padding: 12px; /* Slightly larger padding for better spacing */
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Light border between rows */
+}
+
+table th {
+    background-color: #f9f9f9; /* Blue header for a modern look */
+    color: #0000a0; /* White text for contrast */
+    font-weight: bold;
+}
+
+table td {
+    background-color: #f9f9f9; /* Alternating light background for readability */
+}
+
+table tr:nth-child(even) td {
+    background-color: #f3f3f3; /* Slightly darker for alternating rows */
+}
+
+table tr:hover td {
+    background-color: #e6f7ff; /* Highlight the row on hover */
+}
+
+.validate-btn {
+    background-color: #91cac0;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.validate-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.additional-info {
+    margin-top: 20px; /* Space between the table and the text */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Dark text color */
+    text-align: right; /* Center the text below the table */
+    text-decoration: underline; /* Adds underline to the text */
+}
+
