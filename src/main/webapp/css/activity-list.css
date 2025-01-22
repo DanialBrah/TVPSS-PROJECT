@@ -1,0 +1,130 @@
+/* Sidebar Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: white;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #002a72;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+}
+
+.sidebar-logo {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.header-text h1 {
+    font-size: 20px;
+    margin: 0;
+    text-align: centre;
+}
+
+.header-text h6 {
+    font-size: 10px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 70px 0 0 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar ul li:hover {
+    background-color: #0056b3;
+    transform: translateX(5px);
+    text-decoration: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 225px;
+    padding: 20px;
+}
+
+.main-content h2 {
+    color: #1d3557;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activity-card {
+    background-color: #457b9d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    align-items: center;
+    text-align: left;
+
+}
+
+.activity-card img {
+    max-width: 120%;
+    max-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.activity-card h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.activity-card p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.activity-card .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0; /* Adjust for spacing */
+}
+
+
+

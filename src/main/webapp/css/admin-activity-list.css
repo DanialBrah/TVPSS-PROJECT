@@ -1,0 +1,154 @@
+/* Sidebar Styles */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+.sidebar {
+	width: 220px;
+	background-color: #002a72;
+	color: white;
+	position: fixed;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.header-container {
+	display: flex;
+	align-items: left;
+	gap: 10px;
+}
+
+.sidebar-logo {
+	width: 100px;
+	height: 70px;
+	border-radius: 5px;
+}
+
+.header-text h1 {
+	font-size: 20px;
+	margin: 0;
+	text-align: centre;
+}
+
+.header-text h6 {
+	font-size: 10px;
+	margin: 0;
+	text-align: left;
+	line-height: 1.5;
+	color: #e0e0e0;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 70px 0 0 0;
+	margin: 0;
+}
+
+.sidebar ul li {
+	margin: 15px 0;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar ul li:hover {
+	background-color: #0056b3;
+	transform: translateX(5px);
+	text-decoration: none;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	width: 100%;
+}
+
+/* Main Content Styles */
+.main-content {
+	margin-left: 225px;
+	padding: 20px;
+}
+
+.main-content h2 {
+	color: #1d3557;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.activity-card {
+	background-color: #457b9d;
+	color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+}
+
+.activity-card img {
+	max-width: 100%;
+	max-height: 300px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+
+.activity-card h4 {
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+.activity-card p {
+	margin-bottom: 10px;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+.activity-card .label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.table-striped.table-bordered {
+	text-align: center; /* Aligns text to the center */
+}
+
+.table-striped.table-bordered th, .table-striped.table-bordered td {
+	text-align: center; /* Ensures text in all cells is center-aligned */
+	color: white; /* Makes the font white */
+}
+
+.table-striped.table-bordered thead {
+	background-color: #343a40; /* Dark background for the header */
+}
+
+.table-striped.table-bordered tbody {
+	backdrop-filter: blur(8px); /* Applies a blur effect to the background */
+    -webkit-backdrop-filter: blur(8px); /* Safari compatibility */
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background for the table body */
+}
+
+.table-striped.table-bordered tbody tr:nth-of-type(odd) {
+	backdrop-filter: blur(8px); /* Applies a blur effect to the background */
+    -webkit-backdrop-filter: blur(8px); /* Safari compatibility */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.col-activity-name {
+    width: 13%;
+}
+
+.col-description {
+    width: 47%;
+}
+
+.col-date, .col-school, .col-status {
+    width: 15%;
+}
